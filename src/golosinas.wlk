@@ -49,7 +49,7 @@ print("Peso del bombón después del mordisco:", bombon1.peso)
 
 
 
-object bombón {
+object bombon {
 
     var peso = 15 
 
@@ -94,7 +94,7 @@ object caramelo {
   
 }
 
-object chupetín  {
+object chupetin  {
 
 	var peso = 7
 
@@ -126,7 +126,7 @@ object oblea {
   
 }
 
-object chocolatín {
+object chocolatin {
 	var precio = 
 	
 	method precio() 

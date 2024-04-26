@@ -1,40 +1,34 @@
 object mariano {
 
-	method comprar(unaGolosina) {
-	  
-	}
+	const bolsaDeCaramelos = []
 
-	method desechar(unaGolosina) {
-	  
-	}
+	method comprar(unaGolosina) {bolsaDeCaramelos.add(unaGolosina)} 
 
-	method cantidadDeGolosinas() {
-	  
-	}
+	method desechar(unaGolosina) {bolsaDeCaramelos.remove(unaGolosina)}
 
-	method tieneLaGolosina(unaGolosina) {
-	  
-	}
+	method cantidadDeGolosinas() {bolsaDeCaramelos.size()}
+
+	method tieneLaGolosina(unaGolosina) {bolsaDeCaramelos.contains(unaGolosina)}
 
 	method probarGolosinas() {
-	  
-	}
+		golsaDeCaramelos.forEach({golosina => golosina.mordisco()})
+		}
 
 	method hayGolosinaSinTACC() {
-	  
-	}
+		bolsaDeCaramelos.any({golosina => golosina.esLibreDeGluten() == true})
+		}
 
 	method preciosCuidados() {
-	  
-	}
+		bolsaDeCaramelos.all({golosina => golosina.precio() < 10})
+		}
 
 	method golosinaDeSabor(unSabor) {
-	  
-	}
+		bolsaDeCaramelos.first({golosina => golosina.sabor() == unSabor})
+		}
 
 	method golosinasDeSabor(unSabor) {
-	  
-	}
+		bolsaDeCaramelos.filter({golosina => golosina.sabor() == unSabor})
+		}
 
 	method sabores() {
 	  
@@ -45,6 +39,7 @@ object mariano {
 	}
 
 	method pesoGolosinas() {
+		
 	  
 	}
 
